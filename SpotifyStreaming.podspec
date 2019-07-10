@@ -6,11 +6,8 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/shapedbyiris/ios-streaming-sdk.git'}
   s.license = { :type => "Apache", :file => "LICENSE" }
   s.author = "Spotify"
-  s.ios.deployment_target = '7.0'
-  # s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.ios.deployment_target = '10.0'
   s.vendored_frameworks = "SpotifyAudioPlayback.framework", "SpotifyAuthentication.framework", "SpotifyMetadata.framework"
-  s.source_files = "**/*.h"
-  s.public_header_files = "**/*.h" ## should be considered public
   s.exclude_files = "docs/**/*", "Demo Projects/**/*"
   s.framework = 'AVFoundation'
 end
