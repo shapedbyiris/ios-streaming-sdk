@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "SpotifyAudioPlayback.framework", "SpotifyAuthentication.framework", "SpotifyMetadata.framework"
   s.source_files = "**/*.h"
   s.public_header_files = "**/*.h" ## should be considered public
-  s.exclude_files = "docs/*", "Demo Projects/*"
+  s.exclude_files = "docs/**/*", "Demo Projects/**/*"
   s.framework = 'AVFoundation'
 end
