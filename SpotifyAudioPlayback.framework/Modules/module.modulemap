@@ -1,0 +1,6 @@
+framework module SpotifyAudioPlayback {
+   umbrella header "SpotifyAudioPlayback.h"
+
+   export *
+   module * { export *}
+}
