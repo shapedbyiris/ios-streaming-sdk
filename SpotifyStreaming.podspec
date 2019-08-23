@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = "SpotifyStreaming"
-  s.version = "1.0.2"
+  s.version = "1.0.3"
   s.summary = "Easy integration of Spotify SDKs without bridging header files." # Excludes SpotifyMetadata, in favour of directly calling Spotify Web API.
   s.homepage = "https://github.com/shapedbyiris/ios-streaming-sdk"
   s.source = { :git => 'https://github.com/shapedbyiris/ios-streaming-sdk.git', :tag => s.version}
