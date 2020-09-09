@@ -1,6 +1,0 @@
-framework module SpotifyAuthentication {
-   umbrella header "SpotifyAuthentication.h"
-
-   export *
-   module * { export *}
-}
