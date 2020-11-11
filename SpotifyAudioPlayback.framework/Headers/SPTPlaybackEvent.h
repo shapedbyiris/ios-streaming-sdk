@@ -67,14 +67,14 @@ typedef NS_ENUM(NSUInteger, SpPlaybackEvent) {
 	 * \see SpPlaybackSkipToNext
 	 * \deprecated Use SPPlaybackNotifyMetadataChanged instead.
 	 */
-	SPPlaybackNotifyNext,
+	SPPlaybackNotifyNext __attribute__((deprecated)),
 
 	/**
 	 * \brief Playback as skipped to the previous track
 	 * \see SpPlaybackSkipToPrev
 	 * \deprecated Use SPPlaybackNotifyMetadataChanged instead.
 	 */
-	SPPlaybackNotifyPrev,
+	SPPlaybackNotifyPrev __attribute__((deprecated)),
 
 	/**
 	 * \brief "Shuffle" was switched on
@@ -181,7 +181,7 @@ typedef NS_ENUM(NSUInteger, SpPlaybackEvent) {
 	 *
 	 * \deprecated Use SPPlaybackNotifyMetadataChanged instead.
 	 */
-	SPPlaybackNotifyContextChanged,
+	SPPlaybackNotifyContextChanged __attribute__((deprecated)),
 
 	/**
 	 * \brief Application accepted all samples from the current track
